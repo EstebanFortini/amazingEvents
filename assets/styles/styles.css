@@ -1,0 +1,184 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    width: auto;
+    min-height: 100vh;
+}
+
+
+.titlenav {
+    border-bottom: 0.2rem solid white !important;
+}
+
+.header {
+    border-bottom: 0.2rem solid white !important;
+}
+
+.logoAevents {
+    width: 20rem;
+    max-width: 80vw;
+    height: auto;
+}
+
+.nav-link {
+    color: white;
+    background-color: #D80269;
+    text-align: center;
+}
+
+.active {
+    background-color: #D80269 !important;
+}
+
+.nav-link:hover {
+    background-color: #D80269;
+    color: white;
+    border-radius: 0.3rem;
+}
+
+.rowtitlenav {
+    text-align: center;
+}
+
+.titlenav {
+    background-color: #D80269;
+}
+
+.backforwardbuttons {
+    color: white;
+}
+
+.backforwardbuttons:hover {
+    color: #212529;
+}
+
+main { 
+    min-height: 66vh;
+} /*borrar una vez que este el contenido*/
+
+
+.rowfooter {
+    text-align: center;
+}
+
+.footer {
+    border-top: 0.2rem solid white !important;
+    height: 4rem;
+    margin-top: -4rem;
+    align-self: flex-end;
+}
+
+.footericons {
+    text-decoration: none;
+}
+
+
+.form-check {
+    padding-right: 1rem;
+}
+
+.filterow {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-check-input:checked {
+    background-color: #D80269!important;
+    border: none;
+}
+
+.searchbutton {
+    color: white!important; 
+    border: none;
+}
+
+.searchbutton:hover {
+    background-color: white;
+    color: #212529!important;
+}
+
+.contcards {
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+.card-img-top {
+    height: 10rem;
+    
+    border-radius: 00.3rem;
+}
+
+.card {
+    min-height: 27rem;
+    border: 0.2rem solid white;
+}
+
+.card-text {
+    color: #212529;
+    min-height: 4.5rem;
+}
+
+.card-price {
+    color: #212529;
+    min-height: 2rem;
+}
+
+.card-title {
+    color: #212529;
+}
+
+.viewmorebutton { 
+    color: white;
+    background-color: #D80269;
+    border: none;
+    font-weight: bold;
+}
+
+.viewmorebutton:hover {
+    background-color: #212529;
+
+}
+
+.submitbutton {
+    color: white;
+    background-color: #D80269;
+    text-align: center;
+    border: none;
+}
+
+.submitbutton:hover {
+    background-color: white;
+    color:#D80269 ;
+}
+
+.table {
+    background-color: white;
+
+}
+
+.detaiCard {
+    background-color: white;
+}
+
+.card-textDC {
+    color: #212529;
+}
+
+.imgDC {
+    max-height: 15rem;
+    max-width: 60vw;
+    border-radius: 00.3rem;
+}
+
+
+
+
+
+
+
